@@ -60,6 +60,7 @@ The system includes error handling for:
 
 ## Configuration
 The system uses environment variables for configuration:
+
 OPENAI_API_KEY: Your OpenAI API key
 
 Additional configuration can be set in the initialize.py file

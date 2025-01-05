@@ -14,7 +14,8 @@ hr_agent = Agent(
     tools=[VacationTools()],
     model=OpenAIChat(),
     add_history_to_messages=True,
-    show_tool_calls=True
+    show_tool_calls=True,
+    reasoning=True
 )
 
 #hr_agent.print_response("Summarize analyst recommendations for NVDA", stream=True)
